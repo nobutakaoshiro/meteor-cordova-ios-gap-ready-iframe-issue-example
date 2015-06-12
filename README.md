@@ -8,6 +8,6 @@
 
 ```
 git clone https://github.com/nobutakaoshiro/meteor-cordova-ios-gap-ready-iframe-issue-example.git
-cd meteor-cordova-ios-gap-ready-iframe-issue-example
+cd meteor-cordova-ios-gap-ready-iframe-issue-example/app
 meteor run ios
 ```
