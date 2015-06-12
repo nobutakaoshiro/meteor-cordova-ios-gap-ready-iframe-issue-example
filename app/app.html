@@ -1,0 +1,21 @@
+<head>
+  <title>app</title>
+</head>
+
+<body>
+  {{> deviceInfo}}
+</body>
+
+<template name="deviceInfo">
+  <h2>Device Info</h2>
+  <button class="getInfoButton">Get Info ({{counter}})</button>
+  {{#with deviceInfo}}
+    <ul>
+      <li>cordova: {{cordova}}</li>
+      <li>platform: {{platform}}</li>
+      <li>version: {{version}}</li>
+      <li>model: {{model}}</li>
+      <li>uuid: {{uuid}}</li>
+    </ul>
+  {{/with}}
+</template>
